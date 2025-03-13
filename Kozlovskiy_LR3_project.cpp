@@ -1,4 +1,5 @@
 #include <iostream>
+#include <math.h>
 using namespace std;
 
 float readValues(){
@@ -10,11 +11,11 @@ float readValues(){
 }
 
 int firstTask(float x, float y, float z){
-
+    return (int) x + y + z;
 }
 
 float secondTask(float x, float y, float z){
-
+    
 }
 
 int main(){
